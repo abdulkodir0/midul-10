@@ -1,6 +1,6 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, WebAppInfo, InlineKeyboardMarkup, InlineKeyboardButton
 
-web_app = WebAppInfo(url='https://github.com/abdulkodir0/midul-10.git')
+web_app = WebAppInfo(url='https://abdulkodir0.github.io/midul-10/')
 
 app_kb = ReplyKeyboardMarkup(keyboard=[
     [KeyboardButton(text='Mini App', web_app=web_app)]

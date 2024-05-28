@@ -1,6 +1,6 @@
 import os
 from aiogram import Dispatcher, F, Bot
-from aiogram.filters import CommandStart, Command
+from aiogram.filters import CommandStart
 from aiogram.types import Message, LabeledPrice, PreCheckoutQuery
 from keyboards import app_kb
 from dotenv import load_dotenv

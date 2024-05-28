@@ -20,7 +20,7 @@ abtn1.addEventListener("click", function () {
     count1.style.display = "inline-block";
     tg.MainButton.setText("Оплата");
     tg.MainButton.show();
-    item1 = "Victus/1200/" + count1.innerText;
+    item1 = "Victus/12000000/" + count1.innerText;
 
 });
 rbtn1.addEventListener("click", function () {
@@ -28,7 +28,7 @@ rbtn1.addEventListener("click", function () {
         count1.innerText = n_count1 -= 1;
     }
     count1.style.display = "inline-block";
-    item1 = "Victus/1200/" + count1.innerText;
+    item1 = "Victus/12000000/" + count1.innerText;
     tg.MainButton.setText("Tolov");
     tg.MainButton.show();
 });
@@ -45,7 +45,7 @@ rbtn2.addEventListener("click", function () {
     }
 
     count2.style.display = "inline-block";
-    item2 = "Lenovo/1200/" + count2.innerText;
+    item2 = "Lenovo/12000000/" + count2.innerText;
     tg.MainButton.setText("Tolov");
     tg.MainButton.show();
 });
@@ -54,7 +54,7 @@ rbtn2.addEventListener("click", function () {
 abtn2.addEventListener("click", function () {
     count2.innerText = n_count2 += 1;
     count2.style.display = "inline-block";
-    item2 = "Lenovo/1200/" + count2.innerText;
+    item2 = "Lenovo/12000000/" + count2.innerText;
     tg.MainButton.setText("Tolov");
     tg.MainButton.show();
 });
@@ -72,7 +72,7 @@ rbtn3.addEventListener("click", function () {
     }
 
     count3.style.display = "inline-block";
-    item3 = "MacBook/400/" + count3.innerText;
+    item3 = "MacBook/4000000/" + count3.innerText;
 
     tg.MainButton.setText("Tolov");
     tg.MainButton.show();
@@ -82,7 +82,7 @@ rbtn3.addEventListener("click", function () {
 abtn3.addEventListener("click", function () {
     count3.innerText = n_count3 += 1;
     count3.style.display = "inline-block";
-    item3 = "MacBook/400/" + count3.innerText;
+    item3 = "MacBook/4000000/" + count3.innerText;
     tg.MainButton.setText("Tolov");
     tg.MainButton.show();
 });
@@ -100,7 +100,7 @@ rbtn4.addEventListener("click", function () {
     }
 
     count4.style.display = "inline-block";
-    item4 = "Victus-13/500/" + count4.innerText;
+    item4 = "Victus-13/5000000/" + count4.innerText;
 
     tg.MainButton.setText("Tolov");
     tg.MainButton.show();
@@ -110,7 +110,7 @@ rbtn4.addEventListener("click", function () {
 abtn4.addEventListener("click", function () {
     count4.innerText = n_count4 += 1;
     count4.style.display = "inline-block";
-    item4 = "Victus-13/500/" + count4.innerText;
+    item4 = "Victus-13/5000000/" + count4.innerText;
 
     tg.MainButton.setText("Tolov");
     tg.MainButton.show();
@@ -129,7 +129,7 @@ rbtn5.addEventListener("click", function () {
     }
 
     count5.style.display = "inline-block";
-    item5 = "Lenovo/1300/" + count5.innerText;
+    item5 = "Lenovo/13000000/" + count5.innerText;
 
     tg.MainButton.setText("Tolov");
     tg.MainButton.show();
@@ -139,7 +139,7 @@ rbtn5.addEventListener("click", function () {
 abtn5.addEventListener("click", function () {
     count5.innerText = n_count5 += 1;
     count5.style.display = "inline-block";
-    item5 = "Lenovo/1300/" + count5.innerText;
+    item5 = "Lenovo/13000000/" + count5.innerText;
 
     tg.MainButton.setText("Tolov");
     tg.MainButton.show();
@@ -159,7 +159,7 @@ rbtn6.addEventListener("click", function () {
 
 
 count6.style.display = "inline-block";
-    item6 = "Victus-15/1200/" + count6.innerText;
+    item6 = "Victus-15/12000000/" + count6.innerText;
 
     tg.MainButton.setText("Tolov");
     tg.MainButton.show();
@@ -169,7 +169,7 @@ count6.style.display = "inline-block";
 abtn6.addEventListener("click", function () {
     count6.innerText = n_count6 += 1;
     count6.style.display = "inline-block";
-    item6 = "Victus-15/1200/" + count6.innerText;
+    item6 = "Victus-15/12000000/" + count6.innerText;
 
     tg.MainButton.setText("Tolov");
     tg.MainButton.show();
@@ -190,7 +190,7 @@ rbtn7.addEventListener("click", function () {
     }
 
     count6.style.display = "inline-block";
-    item7 = "MacBook air-13/1400/" + count7.innerText;
+    item7 = "MacBook air-13/14000000/" + count7.innerText;
 
     tg.MainButton.setText("Tolov");
     tg.MainButton.show();
@@ -200,7 +200,7 @@ rbtn7.addEventListener("click", function () {
 abtn7.addEventListener("click", function () {
     count7.innerText = n_count7 += 1;
     count7.style.display = "inline-block";
-    item7 = "MacBook air-13/1400/" + count7.innerText;
+    item7 = "MacBook air-13/14000000/" + count7.innerText;
 
     tg.MainButton.setText("Tolov");
     tg.MainButton.show();
@@ -220,7 +220,7 @@ rbtn8.addEventListener("click", function () {
     }
 
     count8.style.display = "inline-block";
-    item8 = "Hp-13/1700/" + count8.innerText;
+    item8 = "Hp-13/17000000/" + count8.innerText;
 
     tg.MainButton.setText("Tolov");
     tg.MainButton.show();
@@ -230,7 +230,7 @@ rbtn8.addEventListener("click", function () {
 abtn8.addEventListener("click", function () {
     count8.innerText = n_count8 += 1;
     count8.style.display = "inline-block";
-    item8 = "Hp/1700/" + count8.innerText;
+    item8 = "Hp/17000000/" + count8.innerText;
 
     tg.MainButton.setText("Tolov");
     tg.MainButton.show();
